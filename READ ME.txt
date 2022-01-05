@@ -1,0 +1,39 @@
+Lifestyle store
+- First create databse in phpmyadmin with the same name of give SQL file name.
+- In that database import database.
+- Import given SQL file to the database.
+
+
+_____________________________________________Folder Structure__________________________________________________
+	
+	
+	project_solution/
+	├── css/ (contains all the css files)
+	│    └── style.css
+	├──  img/
+	│    └── (contains all images required for developing the website)
+        ├──  database/ (Database of the Project)
+	│    ├── lifestylestore.doc
+	│    └── lifestylestore.sql  
+	├──  includes/	 
+	│    ├── check-if-added.php
+	│    ├── common.php
+	│    ├── footer.php
+	│    └── header.php
+	├──  about_us.php
+	├──  cart.php
+	├──  cart-add.php 
+        ├──  cart-remove.php 
+        ├──  contact_script.php 
+        ├──  contact_us.php 
+	├──  index.php
+	├──  login.php
+	├──  login_submit.php
+	├──  logout_script.php
+        ├──  message_success.php 
+	├──  products.php
+	├──  settings.php
+	├──  setting_script.php
+	├──  signup.php
+	├──  signup_script.php
+	└──  success.php
